@@ -1,78 +1,66 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"Azure Vision",
+    "description":"I am a third-year undergraduate student in Tsinghua University researching on natural language processing",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "bio1":"Hi✋🏻 I am Vision.",
+    "bio2": "I loves computer science and artificial intelligence. A fun fact about me: why does Vision study computer? Because Computer Vision 🐶",
+    "contactmessage":"Feel free to contact me 😉",
+    "email": "hewanrong8@gmail.com",
+    "phone": "+86 13601253053",
+    "github":"https://github.com/Azure-Vision",
+    "project":"https://github.com/Azure-Vision",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Tsinghua University",
+      "city":"Beijing",
+      "state":"China",
+      "zip": "100085"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "https://azure-vision.github.io/home/",
     "resumedownload":"http://timbakerdev.com",
     "social":[
-      {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
+      { "name":"facebook",
+        "url":"https://www.facebook.com/profile.php?id=100004668975997",
+        "className":"fa fa-facebook"},
       {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"https://twitter.com/Azure__Vision",
         "className":"fa fa-twitter"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.cn/injobs/in/%E5%A9%89%E6%A6%95-%E4%BD%95-7315a3140",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/Azure-Vision",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"C++, Python, PyTorch, Linux, LaTeX, Shell Script, HTML, JavaScript, React",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Tsinghua University",
+        "degree":"Undergraduate",
+        "graduated":"July 2023",
+        "description":"I am studying artificial intelligence in Institute for Interdisciplinary Information Sciences. I have received Comprehensive Excellence Award (2019-2020) and Comprehensive Excellence Award (2020-2021)."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Tsinghua High School",
+        "degree":"High school",
+        "graduated":"July 2019",
+        "description":"I have received Principal Scholarship, Grand Prize and Gold Prize (Computer) in S.-T. Yau High School Science Award, and National First Prize of Awarding Program for Future Scientists."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Microsoft Research Asia",
+        "title":"Research Intern",
+        "years":"July 2021 - October 2021",
+        "description":"I have designed a hierarchical transformer-based decoder for formula sketch generation by multi-level expanding non-terminals in the parse tree. I have received the Award of Excellence in the Stars of Tomorrow Internship Program."
       }
     ],
     "skills":[
@@ -109,76 +97,29 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Grid-Attention Autoencoder for Controllable and Precise Makeup Transfer",
+        "author": "Chenyu Yang, Wanrong He, Yingqing Xu, Yang Gao",
+        "category":"CV",
+        "image":"1.png",
+        "publication": "Planing to submit the paper Grid-Attention Autoencoder for Controllable and Precise Makeup Transfer to ECCV 2022",
+        "pdf_url":"",
+        "code_url":""
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Is sequence-to-sequence enough for code generation? Generating Spreadsheet Formulae by Hierarchical Multi-Granularity Expansion",
+        "author": "Wanrong He, Haoyu Dong, Yihuai Gao, Xingzhuo Guo, Shi Han",
+        "category":"NLP",
+        "publication":"Planning to submit to a top conference",
+        "pdf_url":"",
+        "code_url":""
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Is Cross-lingual Evaluation Only About Cross-lingual?",
+        "author": "Zhengxian Fan, Zhengyan Zhang, Wanrong He, Zhiyuan Liu",
+        "category":"NLP",
+        "image":"",
+        "publication":"Submitted to ACL rolling review 2021",
+        "pdf_url":""
       }
     ]
   }
