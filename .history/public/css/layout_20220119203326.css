@@ -174,7 +174,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #43c8c8; }
+ul#nav li.current a { color: #03c5de; }
 
 
 /* ------------------------------------------------------------------ */
