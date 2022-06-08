@@ -114,14 +114,13 @@
         "code_url":""
       },
       {
-        "title":"Study of Geometry Lecturing Tool Based on GeoGebra Plotting",
-        "author": "Wanrong He, ",
-        "category":"Sotfware Engineering",
-        "publication":"Won Grand Prize in S.-T. Yau High School Science Award",
-        "pdf_url":"",
-        "code_url":""
+        "title":"Is Cross-lingual Evaluation Only About Cross-lingual?",
+        "author": "Zhengxian Fan, Zhengyan Zhang, Wanrong He, Zhiyuan Liu",
+        "category":"NLP",
+        "image":"",
+        "publication":"Submitted to ACL rolling review 2021",
+        "pdf_url":""
       }
-      
     ]
   }
 }
