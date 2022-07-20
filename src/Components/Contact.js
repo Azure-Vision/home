@@ -13,7 +13,7 @@ class Contact extends Component {
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
     const email = this.props.data.email;
-
+    const mailto = `mailto:${email}`;
     return (
       <section id="contact">
         <Fade bottom duration={1000}>
@@ -28,8 +28,9 @@ class Contact extends Component {
               <p className="lead">{message}</p>
               {name}, {street}, {city}, {state} {zip}<br />
                   {phone}<br/>
-                  {email}<br/>
-                  wanronghe@stanford.edu
+                  <a href={mailto}>{email}</a><br/>
+                  <a href="mailto:wanronghe@stanford.edu">wanronghe@stanford.edu</a><br/>
+                  
             </div>
           </div>
         </Fade>
