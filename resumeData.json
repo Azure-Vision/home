@@ -1,11 +1,11 @@
 {
   "main": {
     "name":"Wanrong He",
-    "description":"I am a third-year undergraduate student in Tsinghua University researching on natural language processing",
-    "image":"profilepic.jpg",
-    "bio1":"Hi✋🏻 I am Wanrong He. My nick name is Vision. I loves computer science and artificial intelligence. ",
+    "description":"I am a third-year undergrad from Tsinghua University researching on social computing and natural language processing. I am currently a research intern at Stanford University.",
+    "image":"my_photo.jpg",
+    "bio1":"Hi✋🏻 I am Wanrong He. I use the nickname “Vision”. I loves computer science and artificial intelligence. ",
     "bio2": "A fun fact about me: why does Vision study computer? Because Computer Vision 🐶",
-    "contactmessage":"Feel free to contact me 😉 (Note that the contact system below might not work properly, it is better to send me emails.)",
+    "contactmessage":"Feel free to contact me 😉",
     "email": "hewanrong8@gmail.com",
     "phone": "+86 13601253053",
     "github":"https://github.com/Azure-Vision",
@@ -97,30 +97,39 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Grid-Attention Autoencoder for Controllable and Precise Makeup Transfer",
+        "title":"EleGANt: Exquisite and Locally Editable GAN for Makeup Transfer",
         "author": "Chenyu Yang, Wanrong He, Yingqing Xu, Yang Gao",
         "category":"CV",
         "image":"1.png",
-        "publication": "Planing to submit the paper Grid-Attention Autoencoder for Controllable and Precise Makeup Transfer to ECCV 2022",
+        "publication": "Accepted by ECCV 2022",
+        "pdf_url":"home/papers/EleGANt Exquisite and Locally Editable GAN for Makeup Transfer.pdf",
+        "code_url":"https://github.com/Chenyu-Yang-2000/EleGANt"
+      },
+      {
+        "title":"HermEs: Interactive Spreadsheet Formula Prediction via Hierarchical Formulet Expansion",
+        "author": "Wanrong He, Haoyu Dong, Yihuai Gao, Shi Han",
+        "category":"NLP",
+        "publication":"Submitted to EMNLP",
         "pdf_url":"",
         "code_url":""
       },
       {
-        "title":"Is sequence-to-sequence enough for code generation? Generating Spreadsheet Formulae by Hierarchical Multi-Granularity Expansion",
-        "author": "Wanrong He, Haoyu Dong, Yihuai Gao, Xingzhuo Guo, Shi Han",
+        "title": "Cheater's Bowl: Human vs. Computer Search Strategies for Open-Domain Question Answering",
+        "author": "Wanrong He, Andrew Mao, Jordan Boyd-Graber",
         "category":"NLP",
-        "publication":"Planning to submit to a top conference",
-        "pdf_url":"papers/NLP_project_Spreadsheet_Formula_Prediction_by_Seq2seq.pdf",
+        "publication":"Submitted to EMNLP",
+        "pdf_url":"",
         "code_url":""
       },
       {
-        "title":"Is Cross-lingual Evaluation Only About Cross-lingual?",
-        "author": "Zhengxian Fan, Zhengyan Zhang, Wanrong He, Zhiyuan Liu",
-        "category":"NLP",
-        "image":"",
-        "publication":"Submitted to ACL rolling review 2021",
-        "pdf_url":""
+        "title":"Study of Geometry Lecturing Tool Based on GeoGebra Plotting",
+        "author": "Wanrong He",
+        "category":"Sotfware Engineering",
+        "publication":"Won Grand Prize in S.-T. Yau High School Science Award",
+        "pdf_url":"",
+        "code_url":""
       }
+      
     ]
   }
 }
