@@ -12,6 +12,7 @@ class Contact extends Component {
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
+    const email = this.props.data.email;
 
     return (
       <section id="contact">
@@ -25,12 +26,16 @@ class Contact extends Component {
 
             <div className="ten columns">
               <p className="lead">{message}</p>
+              {name}, {street}, {city}, {state} {zip}<br />
+                  {phone}<br/>
+                  {email}<br/>
+                  wanronghe@stanford.edu
             </div>
           </div>
         </Fade>
 
         <div className="row">
-          <Slide left duration={1000}>
+          {/* <Slide left duration={1000}>
             <div className="eight columns">
               <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
@@ -101,7 +106,7 @@ class Contact extends Component {
                 <br />
               </div>
             </div>
-          </Slide>
+          </Slide> 
 
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
@@ -119,7 +124,7 @@ class Contact extends Component {
 
               
             </aside>
-          </Slide>
+          </Slide>*/}
         </div>
       </section>
     );
